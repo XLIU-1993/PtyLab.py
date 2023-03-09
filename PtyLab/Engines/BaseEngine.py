@@ -1075,7 +1075,7 @@ class BaseEngine(object):
                 probe_estimate = np.squeeze(
                     asNumpyArray(
                         self.reconstruction.probe[
-                            0, ..., self.monitor.probeROI[0], self.monitor.probeROI[1]
+                            ..., self.monitor.probeROI[0], self.monitor.probeROI[1]
                         ]
                     )
                 )
